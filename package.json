@@ -1,7 +1,11 @@
 {
   "name": "@kuankuan/uint53",
   "version": "0.1.0",
-  "description": "",
+  "description": "A utility library for performing bitwise operations on unsigned 53-bit integers in JavaScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuankuan2007/js-uint53.git"
+  },
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
