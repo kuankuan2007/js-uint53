@@ -20,13 +20,13 @@ Don't ask me why it's `53`. Because `Number.MAX_SAFE_INTEGER` is `90071992547409
 You can install this library via npm or yarn:
 
 ```bash
-npm install uint53-bit-operations
+npm install @kuankuan/uint53
 ```
 
 or
 
 ```bash
-yarn add uint53-bit-operations
+yarn add @kuankuan/uint53
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ yarn add uint53-bit-operations
 Import the library and use the provided functions:
 
 ```typescript
-import Uint53BitOperations from 'uint53-bit-operations';
+import Uint53BitOperations from '@kuankuan/uint53';
 
 // Example usage
 const a = 42;
@@ -108,7 +108,7 @@ import {
   uint53_not,
   uint53_shift_left,
   uint53_shift_right,
-} from 'uint53-bit-operations';
+} from '@kuankuan/uint53';
 
 const a = 42;
 const b = 15;

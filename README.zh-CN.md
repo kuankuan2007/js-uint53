@@ -16,13 +16,13 @@
 您可以通过 npm 或 yarn 安装此库：
 
 ```bash
-npm install uint53-bit-operations
+npm install @kuankuan/uint53
 ```
 
 或
 
 ```bash
-yarn add uint53-bit-operations
+yarn add @kuankuan/uint53
 ```
 
 ## 使用方法
@@ -30,7 +30,7 @@ yarn add uint53-bit-operations
 导入库并使用提供的函数：
 
 ```typescript
-import Uint53BitOperations from 'uint53-bit-operations';
+import Uint53BitOperations from '@kuankuan/uint53';
 
 // 示例用法
 const a = 42;
@@ -104,7 +104,7 @@ import {
   uint53_not,
   uint53_shift_left,
   uint53_shift_right,
-} from 'uint53-bit-operations';
+} from '@kuankuan/uint53';
 
 const a = 42;
 const b = 15;
